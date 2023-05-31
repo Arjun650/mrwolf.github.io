@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{ 
+    background-color: rgba(205, 193, 193, 0.776);
+    width: 245px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+}
+/* .flag{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.flag img{
+    width: 40px;
+    margin-bottom: -90px;
+} */
+.sidebar nav{
+    padding: 50px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav ul li :hover{
+    transition: 1s;
+    color: brown;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: rgb(243, 248, 0); */
+    width: 87vw;
+    
+}
+.container{ 
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(150, 227, 26); */
+    height: 60vh;
+    width: 70vw;
+    margin: 95px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Signika', sans-serif;
+}
+.hello{ font-size: 50px;
+    
+      }
+.moreabout{
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 20px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+.about{
+    font-size: 25px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 6px;
+    border-radius: 22px;
+    background: rgb(50, 86, 88);
+    font-size: 13px;
+    font-style: bold;
+    color: antiquewhite;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+    
+    
+}
+.buttons button:hover{
+    background: antiquewhite;
+    color: rgb(50, 86, 88);;
+}
+.devpic img{
+    height:60vh;
+}
+
+
+/*.a{
+    
+    height: auto;
+    width: 100%;
+}*/
